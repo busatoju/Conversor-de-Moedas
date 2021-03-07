@@ -10,7 +10,7 @@ class HomeController {
   CurrencyModel toCurrency;
   CurrencyModel fromCurrency;
 
-  HomeController({this.toCurrency,this.fromCurrency}) {
+  HomeController({this.toCurrency,this.fromCurrency, TextEditingController fromText, TextEditingController toText}) {
     currencies = CurrencyModel.getCurrencies();
     toCurrency = currencies[0];
     fromCurrency = currencies[1];
