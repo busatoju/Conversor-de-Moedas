@@ -29,7 +29,7 @@ class _HomeViewState extends State<HomeView> {
         child: Padding(
           padding:
               const EdgeInsets.only(top: 100, bottom: 20, left: 30, right: 30),
-          child: Column(
+          child: ListView(
             //mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
